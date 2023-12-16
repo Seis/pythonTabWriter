@@ -44,10 +44,10 @@ def processInput(input: str, timing: int):
         e2String.append("-")
     else:
         e1String.append(timingInserter(timing,fretExtract("E", input)))
-        a1String.append(timingInserter(timing,fretExtract("A", input)))
-        d1String.append(timingInserter(timing,fretExtract("D", input)))
-        g1String.append(timingInserter(timing,fretExtract("G", input)))
-        b1String.append(timingInserter(timing,fretExtract("B", input)))
+        a1String.append(timingInserter(timing,fretExtract("A|a", input)))
+        d1String.append(timingInserter(timing,fretExtract("D|d", input)))
+        g1String.append(timingInserter(timing,fretExtract("G|g", input)))
+        b1String.append(timingInserter(timing,fretExtract("B|b", input)))
         e2String.append(timingInserter(timing,fretExtract("e", input)))
 
 # presents the current state of the arrays storing the tab
